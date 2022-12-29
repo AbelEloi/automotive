@@ -112,7 +112,7 @@ main h1 {
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
-    text-indent: 30px;
+    margin: 20px 10px 10px 30px;
 }
 
 main h2 {
@@ -190,6 +190,7 @@ aside > h3 {
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
+    text-indent: 1em;
 }
 
 aside > ul {
@@ -202,16 +203,19 @@ aside > ul {
     margin-top: 1em;
     padding: 1em;
     border-radius: 5px;
+    color: var(--cor5);
     background-color: var(--white);
 }
 
 .texto-sobre p {
-    text-indent: -10px;
+    text-indent: 0px;
+    
 }
 
 .end-article {
     margin-top: 1em;
     text-align: center;
+    color: var(--cor5);
 }
 
 footer {
