@@ -13,6 +13,7 @@ Obs: também é possivel criar uma pseudo-classe com (:root) que é a raiz da á
 }
 
 :root {
+    --white: whitesmoke;
     --cor0: #F6c4c4;
     --cor1: #F7220F;
     --cor2: #EB210D;
@@ -47,7 +48,7 @@ header {
 }
 
 header > h1 {
-    color: white;
+    color: var(--white);
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
@@ -59,7 +60,7 @@ header > h1 {
 header > p {
     font-family: var(--fonte-padrao);
     font-size: 1.2em;
-    color: white;
+    color: var(--white);
     max-width: 500px;
     padding-left: 10px;
     padding-right: 10px;
@@ -95,7 +96,7 @@ main {
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
-    background-color: white;
+    background-color: var(--white);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.303);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius:10px;
@@ -128,7 +129,7 @@ main p {
 
 main strong,
 header strong {
-    color: white;
+    color: var(--white);
     font-weight: bold;
 }
 
@@ -180,7 +181,7 @@ aside {
 
 aside > h3 {
     background-color: var(--cor4);
-    color: white;
+    color: var(--white);
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
@@ -193,20 +194,24 @@ aside > ul {
 }
 
 aside p {
-    margin-trim: 0px;
-    padding: 0px;
-    background-color: #fff;
+    
+}
+
+.texto-sobre {
+    margin-top: 1em;
+    border-radius: 5px;
+    background-color: var(--white);
 }
 
 footer {
     background-color: var(--cor5);
-    color: white;
+    color: var(--white);
     text-align: center;
     font-size: 0.82em;
     padding: 5px;
 }
 footer a {
-    color: white;
+    color: var(--white);
     font-weight: bolder;
     text-decoration: none;
 }
