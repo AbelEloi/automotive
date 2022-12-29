@@ -89,6 +89,7 @@ nav a {
 nav a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
+    transition: all 0.3s;
 }
 
 main {
@@ -109,20 +110,22 @@ main {
 }
 
 main h1 {
-    color: var(--cor5);
+    color: var(--cor4);
     font-family: var(--fonte-android);
     font-weight: normal;
     font-size: 1.8em;
     margin: 20px 10px 10px 30px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.238);
 }
 
 main h2 {
-    font-family: var(--fonte-android);
+    font-family: Arial, Helvetica, sans-serif;
     color: var(--cor4);
-    font-size: 1.3em;
-    font-weight: normal;
-    background-image: linear-gradient(to right, var(--cor1), transparent);
-    text-indent: 8px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-indent: 0px;
+    margin: 20px 10px 10px 30px;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.238);
 }
 
 main p {
@@ -144,14 +147,17 @@ main a {
     font-weight: bold;
     color: var(--white);
     background-color: var(--cor1);
-    padding: 2px 6px;
-    border-radius: 5px;
+    margin: 0px;
+    padding: 0px 3px;
+    border-radius: 3px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 main a:hover {
     text-decoration: underline;
     color: var(--cor4);
+    background-color: var(--white);
+    transition: all 0.3s;
 }
 
 main img {
@@ -189,6 +195,7 @@ div.video iframe {
 aside {
     background-color: var(--cor1);
     padding: 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
 }
@@ -200,6 +207,7 @@ aside > h3 {
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
     text-indent: 1em;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.238);
 }
 
 aside > ul {
@@ -229,6 +237,27 @@ aside abbr {
     margin-top: 10px;
 }
 
+.contato-wa {
+    text-decoration: none;
+    color: var(--white);
+    background-color: var(--cor2);
+}
+
+.contato-wa:hover {
+    
+    text-decoration: underline;
+    background-color: var(--white);
+    color: var(--cor3);
+    transition: all 0.3s;
+}
+
+.space {
+    height: 1px;
+    width: 30px;
+    background-color: var(--cor1);
+    
+}
+
 .end-article {
     margin-top: 4em;
     text-align: center;
@@ -250,4 +279,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
+    transition: all 0.3s;
 }
