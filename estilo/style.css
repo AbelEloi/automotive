@@ -131,15 +131,16 @@ main h2 {
 }
 
 main p {
-    margin: 15px 0px;
-    text-align: justify;
+    margin: 0px;
+    text-align: content;
     text-indent: 30px;
     font-size: 1em;
-    line-height: 2em;
+    line-height: 1.3em;
 }
 
-main strong {
-    color: var(--cor4);
+main strong,
+header strong {
+    color: white;
     font-weight: bold;
 }
 
@@ -200,11 +201,13 @@ aside > h3 {
 aside > ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
-    columns: 2;
-    /*
-    pegar no site emojipedia o emogi "check mark" para mudar a decoração no inicio de cada item da lista ex.( list-style-type: '\2714' )
-    pode tambem acrecentar espaço sem ter quebra na linha com o codigo adicional colocado no final do valor do codigo, ex.( \00a0 ou \0020 ) 
-    */
+    columns: 1;
+}
+
+aside p {
+    margin-trim: 0px;
+    padding: 0px;
+    background-color: #fff;
 }
 
 footer {
