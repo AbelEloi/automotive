@@ -102,6 +102,11 @@ main {
     border-bottom-right-radius:10px;
 }
 
+.veiculo {
+    max-height: 700px;
+    width: auto;
+}
+
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-android);
@@ -193,14 +198,20 @@ aside > ul {
     columns: 1;
 }
 
-aside p {
-    
-}
-
 .texto-sobre {
     margin-top: 1em;
+    padding: 1em;
     border-radius: 5px;
     background-color: var(--white);
+}
+
+.texto-sobre p {
+    text-indent: -10px;
+}
+
+.end-article {
+    margin-top: 1em;
+    text-align: center;
 }
 
 footer {
