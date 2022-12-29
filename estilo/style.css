@@ -146,7 +146,7 @@ main a {
     text-decoration: none;
     font-weight: bold;
     color: var(--white);
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     margin: 0px;
     padding: 0px 3px;
     border-radius: 3px;
@@ -164,7 +164,7 @@ main img {
     max-width: 700px;
     display: block;
     margin: auto;
-    background-color: var(--cor1);
+    background-color: var(--cor3);
     padding: 7px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
@@ -198,6 +198,7 @@ aside {
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor4));
 }
 
 aside > h3 {
@@ -214,6 +215,7 @@ aside > ul {
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     columns: 1;
+    
 }
 
 aside abbr {
@@ -240,7 +242,7 @@ aside abbr {
 .contato-wa {
     text-decoration: none;
     color: var(--white);
-    background-color: var(--cor2);
+    background-color: var(--cor3);
 }
 
 .contato-wa:hover {
@@ -264,7 +266,7 @@ aside abbr {
 }
 
 footer {
-    background-color: var(--cor5);
+    background-image: linear-gradient(to bottom, var(--cor2), var(--cor5));
     color: var(--white);
     text-align: center;
     font-size: 0.82em;
@@ -278,6 +280,9 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-    color: var(--cor1);
+    color: var(--cor3);
     transition: all 0.3s;
+    background-color: var(--white);
+    border-radius: 3px;
+    padding: 3px;
 }
