@@ -1,11 +1,5 @@
 @charset "utf-8";
-
-/*
-Obs: também é possivel criar uma pseudo-classe com (:root) que é a raiz da árvore para ser definido para o documento inteiro, ex. a variável '--cor0'. sendo possível inserir o codigo da cor que esta dentro da seleção de cores no seletor como (--cor1). Ex. de seletor (--fonte-padrao)
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 @font-face {
     font-family: 'Android';
     src: url('../fontes/idroid.otf') format('opentype');
